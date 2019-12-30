@@ -158,6 +158,10 @@ header {
     text-align: center;
 }
 
+.store-img {
+    padding: 15px;
+}
+
 .store-name {
     font-size: 22px;
     line-height: 30px;
@@ -174,16 +178,42 @@ header {
     font-size: 20px;
     font-weight: bold;
     line-height: 27px;
+    padding: 30px 0 19px;
 }
 
-.store-note {
+.store-note1 {
     font-size: 18px;
     font-weight: bold;
     line-height: 24px;
+    padding-bottom: 9px;
 }
 
+.store-note2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    padding-bottom: 47px;
+}
 
+.store-contents {
+    box-shadow: 1px 1px 3px;
+    margin-bottom: 60px;
+}
 
+.store-btn-wrapper {
+    text-align: center;
+}
+
+.store-btn {
+    padding: 16px 67px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: #295525;
+    border-radius: 100px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
 
 
 
