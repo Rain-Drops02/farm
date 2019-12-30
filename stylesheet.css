@@ -216,6 +216,38 @@ header {
     margin-bottom: 40px;
 }
 
+.blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-cotents {
+    box-shadow: 1px 1px 2px;
+    margin-bottom: 70px;
+    border-radius: 3px;
+}
+
+.blog-img {
+    max-width: 100%;
+    width: 320px;
+    padding: 10px;
+}
+
+.blog-date {
+    font-size: 14px;
+    font-weight: bold;
+    color: #295525;
+    line-height: 19px;
+    padding: 7px 0 10px 10px;
+}
+
+.blog-title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 0 0 17px 10px;
+}
+
 
 
 
@@ -270,4 +302,5 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 
