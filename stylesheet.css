@@ -198,6 +198,7 @@ header {
 .store-contents {
     box-shadow: 1px 1px 3px;
     margin-bottom: 60px;
+    border-radius: 3px;
 }
 
 .store-btn-wrapper {
@@ -269,5 +270,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 
