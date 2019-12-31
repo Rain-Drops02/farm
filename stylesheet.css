@@ -24,6 +24,7 @@ a {
 header {
     height: 100px;
     position: fixed;
+    z-index: 999;
     background-color: white;
     width: 100%;
 }
@@ -196,7 +197,7 @@ header {
 }
 
 .store-contents {
-    box-shadow: 1px 1px 3px;
+    box-shadow: 1px 1px 3px #929292;
     margin-bottom: 60px;
     border-radius: 3px;
 }
@@ -222,15 +223,28 @@ header {
 }
 
 .blog-cotents {
-    box-shadow: 1px 1px 2px;
+    box-shadow: 1px 1px 2px #929292;
     margin-bottom: 70px;
     border-radius: 3px;
+    position: relative;
+}
+
+.blog-img-comment {
+    position: absolute;
+    top: 10px;
+    left: 228px;
+    color: #295525;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    padding: 2px 17px;
+    background-color: yellow;
 }
 
 .blog-img {
     max-width: 100%;
     width: 320px;
-    padding: 10px;
+    padding: 10px
 }
 
 .blog-date {
@@ -302,5 +316,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 
