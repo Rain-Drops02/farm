@@ -6,6 +6,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -202,11 +206,11 @@ header {
     border-radius: 3px;
 }
 
-.store-btn-wrapper {
+.btn-wrapper {
     text-align: center;
 }
 
-.store-btn {
+.btn {
     padding: 16px 67px;
     color: white;
     font-weight: bold;
@@ -299,6 +303,86 @@ header {
     top: 38px;
     left: 45px;
 }
+
+.event {
+    padding-bottom: 40px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 44px;
+}
+
+.gallery img {
+    max-width: 100%;
+    width: 300px;
+    height: 280px;
+    padding-bottom: 30px;
+}
+
+.footer-main {
+    text-align: center;
+}
+
+.footer-icon {
+    padding-bottom: 17px;
+    max-width: 120px;
+}
+
+.adress {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 21px;
+    padding-bottom: 16px;
+}
+
+.footer-main {
+    padding-bottom: 35px;
+}
+
+.footer-sub {
+    text-align: center;
+    white-space: nowrap;
+}
+
+footer li {
+    display: inline;
+}
+
+.footer-a {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.footer-line1 {
+    margin-right: 20px;
+}
+
+.footer-line2 {
+    margin-right:20px;
+	padding-left:20px;
+    border-left:1px solid #707070;
+}
+
+.footer-bar {
+    background-color: #295525;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.Copyright {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #ffffff;
+}
+
 
 
 
