@@ -262,6 +262,44 @@ header {
     padding: 0 0 17px 10px;
 }
 
+.event-img {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px 23px 75px 23px;
+    border: dashed 2px;
+}
+
+.icon-arrow {
+    line-height: 50px;
+}
+
+.season {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 48px;
+    color: #295525;
+    text-align: center;
+    padding: 13px 0 32px;
+}
+
+.event-note {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #333333;
+    text-align: center;
+}
+
+.event-contents {
+    position: relative;
+}
+
+.event-icon {
+    position: absolute;
+    top: 38px;
+    left: 45px;
+}
+
 
 
 
