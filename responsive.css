@@ -166,7 +166,7 @@
 }
 
 .icon-border-p {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .side-img {
@@ -243,12 +243,19 @@
     text-align: center;
 }
 
+.event-img {
+    width: 200px;
+}
+
 .event-icon {
-    left: 95px;
+    left: 80px;
+    top: 50px;
+    width: 100px;
 }
 
 .icon-arrow {
     text-align: center;
+    transform: rotate(90deg);
 }
 
 .footer-icon {
