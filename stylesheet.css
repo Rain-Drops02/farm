@@ -23,6 +23,7 @@ li {
     width: 1080px;
     max-width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 header {
@@ -96,6 +97,10 @@ header {
     font-size: 26px;
     font-weight: bold;
     line-height: 65px;
+}
+
+.liner {
+    background: linear-gradient(transparent 50%, yellow 70%);
 }
 
 .local-img {
@@ -174,7 +179,7 @@ header {
     font-weight: bold;
 }
 
-.store-name span {
+.color {
     font-size: 40px;
     line-height: 53px;
     color: #295525;
