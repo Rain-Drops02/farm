@@ -14,6 +14,10 @@
     margin: 0 auto;
 }
 
+.header-space {
+    margin: 0 16px;
+}
+
 header {
     height: 70px;
 }
