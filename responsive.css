@@ -14,12 +14,12 @@
     margin: 0 auto;
 }
 
-.header-space {
-    margin: 0 16px;
-}
-
 header {
     height: 70px;
+}
+
+.header-space {
+    margin: 0 16px;
 }
 
 .header-logo {
@@ -28,6 +28,10 @@ header {
 
 .header-btn {
     padding: 7px 12px;;
+}
+
+.top-img-commentA, .top-img-commentB, .top-img-commentC {
+    top: 25%;
 }
 
 .icon {
@@ -104,6 +108,11 @@ header {
     padding: 30px 18px;
 }
 
+.icon-arrow1, .icon-arrow2, .icon-arrow3 {
+    width: 40px;
+    left: -20px;
+}
+
 .season {
     font-size: 25px;
     padding: 5px 0 10px;
@@ -136,6 +145,10 @@ header {
     display: none;
 }
 
+.header-responsive {
+    display: none;
+}
+
 }
 
 
@@ -143,6 +156,12 @@ header {
 
 .br3 {
     display: none;
+}
+
+.container-responsive {
+    padding: 0 17px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .container {
@@ -164,6 +183,37 @@ header {
     justify-content: flex-start;
     width: 50px;
 }
+.header-logo-responsive {
+    margin-top: 5px;
+    width: 60px;
+}
+
+.header-responsive {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-wrap {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    color: #295525;
+}
+
+.menu-icon {
+    display: block;
+    font-size: 50px;
+    padding: 2px 0;
+    z-index: 999;
+    color: #295525;
+}
+
+.fa {
+    font-weight: 900;
+}
+
 
 .icon {
     width: 80px;
@@ -265,9 +315,12 @@ header {
     width: 100px;
 }
 
-.icon-arrow {
-    text-align: center;
+.icon-arrow1, .icon-arrow2, .icon-arrow3 {
     transform: rotate(90deg);
+}
+
+.icon-arrow-wrap {
+    text-align: center;
 }
 
 .footer-icon {
