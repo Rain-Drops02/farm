@@ -1,10 +1,11 @@
 @media (min-width: 1080px) {
 
-    .br2 {
+.br2 {
         display: none;
-    }
-    
-    }
+}
+
+
+}
 
 @media (max-width: 1080px) {
 
@@ -108,11 +109,6 @@ header {
     padding: 30px 18px;
 }
 
-.icon-arrow1, .icon-arrow2, .icon-arrow3 {
-    width: 40px;
-    left: -20px;
-}
-
 .season {
     font-size: 25px;
     padding: 5px 0 10px;
@@ -130,6 +126,13 @@ header {
     top: 45px;
     left: 40px;
     width: 70px;
+}
+
+.icon-arrow1, .icon-arrow2, .icon-arrow3 {
+    width: 40px;
+    position: absolute;
+    top: 50px;
+    left: -20px;
 }
 
 .span1 {
@@ -317,10 +320,12 @@ header {
 
 .icon-arrow1, .icon-arrow2, .icon-arrow3 {
     transform: rotate(90deg);
+    position: static;
 }
 
 .icon-arrow-wrap {
     text-align: center;
+    position: static;
 }
 
 .footer-icon {
