@@ -560,12 +560,12 @@ footer li {
     font-weight: bold;
 }
 
-.news-comment-wrap {
+.sub-comment-wrap {
     text-align: center;
     padding: 100px 0 ;
 }
 
-.news-comment {
+.sub-comment {
     font-size: 26px;
     font-weight: bold;
     color: #333333;
@@ -617,6 +617,34 @@ footer li {
     padding: 0 0 17px 10px;
 }
 
+/*以下store.html*/
+
+.store-title {
+    position: absolute;
+    top: 165px;
+    left: 555px;
+    padding: 20px 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 32px;
+    color: #295525;
+    font-weight: bold;
+}
+
+
+
+
+/*以下contant.html*/
+
+.contant-title {
+    position: absolute;
+    top: 165px;
+    left: 555px;
+    padding: 20px 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 32px;
+    color: #295525;
+    font-weight: bold;
+}
 
 
 
