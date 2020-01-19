@@ -491,6 +491,21 @@ footer li {
     object-fit: cover;
 }
 
+.about-top-wrap {
+    position: relative;
+}
+
+.about-title {
+    position: absolute;
+    top: 165px;
+    left: 560px;
+    padding: 20px 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 32px;
+    color: #295525;
+    font-weight: bold;
+}
+
 .about-main {
     display: flex;
     justify-content: space-around;
