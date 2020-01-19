@@ -68,6 +68,7 @@ header {
     margin: 0 18px;
 }
 
+/*ボタンの背景効果（保留）
 .header-btn {
     padding: 10px 25px;
     color: white;
@@ -85,6 +86,7 @@ header {
       0 0 40px rgba(255, 255, 255, .6);
       background-color: #295525;
 }
+*/
 
 .top-wrap {
     position: relative;
