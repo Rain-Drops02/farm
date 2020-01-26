@@ -139,6 +139,23 @@ header {
     display: none;
 }
 
+/*以下about*/
+
+.about-main {
+    flex-direction: column;
+    text-align: center;
+}
+
+/*以下news*/
+
+.blog2 {
+    flex-direction: column;
+}
+
+.blog-responsive-container {
+    width: 500px;
+    max-width: 100%;
+}
 
 }
 
@@ -170,6 +187,7 @@ header {
 .container {
     padding: 0 17px;
     width: 340px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -351,6 +369,53 @@ header {
     font-size: 13px;
 }
 
+/*以下about*/
+
+.about-note1, .about-note2, .about-note3 {
+    font-size: 18px;
+    line-height: 32px;
+    padding: 15px 0;
+}
+
+.company-side-img {
+    display: none;
+}
+
+.company-information {
+    justify-content: space-between;
+}
+
+.company-topic {
+    font-size: 23px;
+}
+
+.company-note {
+    font-size: 19px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*以下news*/
+
+.sub-comment {
+    font-size: 24px;
+}
+
+.blog-responsive-hide {
+    display: none;
+}
+
+.blog-date2 {
+    font-size: 16px;
+}
+
+.blog-title2 {
+    font-size: 20px;
+}
+
+.blog-img-comment2 {
+    left: 184px;
+}
 
 }
 
