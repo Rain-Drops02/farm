@@ -173,9 +173,16 @@ header {
     background: linear-gradient(transparent 50%, yellow 70%);
 }
 
-.local-img {
+.local-img-color {
     max-width: 100%;
     height: auto;
+    background-color: #FFFDF6;
+}
+
+.local-img-white {
+    max-width: 100%;
+    height: auto;
+    background-color: #FFFfff;
 }
 
 .icon-border-p {
@@ -184,6 +191,7 @@ header {
     font-weight: bold;
     width: 340px;
     max-width: 100%;
+    margin: 0 auto;
 }
 
 .mp1-img {
@@ -722,8 +730,43 @@ footer li {
     margin-right: 15px;
 }
 
+/*以下single-event*/
 
+.post-title {
+    font-size: 40px;
+    margin-top: 200px;
+}
 
+.post-dc-wrap {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.post-date {
+    font-size: 20px;
+    margin-right: 20px;
+    color: #295525;
+}
+
+.post-category {
+    background-color: yellow;
+    padding: 3px 10px;
+}
+
+.post-img {
+    width: 600px;
+    height: 400px;
+    margin-bottom: 90px;
+}
+
+.post-note {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
 
 
 
