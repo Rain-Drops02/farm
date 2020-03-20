@@ -361,6 +361,7 @@ header {
 }
 
 .blog-title {
+    color: #000000;
     font-size: 18px;
     font-weight: bold;
     line-height: 24px;
@@ -819,4 +820,5 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 
