@@ -68,25 +68,63 @@ header {
     margin: 0 18px;
 }
 
-/*ボタンの背景効果（保留）
-.header-btn {
-    padding: 10px 25px;
-    color: white;
-    font-weight: bold;
-    border-radius: 100px;
-    display: inline-block;
-    transition:all .5s ease-in-out;
+/*スマホ版メニュー*/
+
+#login-show-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    display: none;
 }
 
-.header-btn:hover {
-    text-shadow:
-      0 0 10px rgba(255,255,255, 1),
-      0 0 20px rgba(255,255,255, 7),
-      0 0 30px rgba(255, 255, 255, .8),
-      0 0 40px rgba(255, 255, 255, .6);
-      background-color: #295525;
+#login-show {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #e6ecf0;
+    padding: 20px 0 40px;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    text-align: center;
 }
-*/
+
+#menu-logo {
+    width: 150px;
+    max-width: 100%;
+}
+
+.menu-show-btn-wrap {
+    padding: 10px 0;
+}
+
+#menu-show-btn-space {
+    padding-right: 55px;
+}
+
+.menu-show-btn {
+    font-size: 18px;
+    color: #333333;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.fa-times {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: rgba(128, 128, 128, 0.46);
+    cursor: pointer;
+  }
+
+/*トップ画像*/
 
 .top-wrap {
     position: relative;
@@ -189,7 +227,7 @@ header {
     padding-bottom: 67px;
     font-size: 18px;
     font-weight: bold;
-    width: 340px;
+    width: 342px;
     max-width: 100%;
     margin: 0 auto;
 }
