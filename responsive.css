@@ -139,14 +139,14 @@ header {
     display: none;
 }
 
-/*以下about*/
+/*??about*/
 
 .about-main {
     flex-direction: column;
     text-align: center;
 }
 
-/*以下news*/
+/*??news*/
 
 .blog2 {
     flex-direction: column;
@@ -171,6 +171,8 @@ header {
 
 }
 
+
+/*ã‚¹ãƒžãƒ›ç‰ˆ*/
 
 @media (max-width: 767px) {
 
@@ -212,6 +214,28 @@ header {
 .header-responsive {
     display: flex;
     justify-content: space-between;
+}
+
+#login-show {
+    padding: 20px 0 40px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+#menu-logo {
+    width: 100px;
+    max-width: 100%;
+}
+
+#menu-show-btn-space {
+    padding-right: 38px;
+}
+
+.menu-show-btn {
+    font-size: 14px;
+    color: #333333;
+    padding: 0 10px;
+    font-weight: bold;
 }
 
 .menu-wrap {
@@ -369,7 +393,7 @@ header {
     font-size: 13px;
 }
 
-/*以下about*/
+/*??about*/
 
 .about-note1, .about-note2, .about-note3 {
     font-size: 18px;
@@ -395,7 +419,7 @@ header {
     justify-content: flex-end;
 }
 
-/*以下news*/
+/*??news*/
 
 .sub-comment {
     font-size: 24px;
